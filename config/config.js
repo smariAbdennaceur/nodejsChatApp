@@ -1,0 +1,13 @@
+let config = {};
+config.env = process.env.NODE_ENV || 'development';
+config.port = process.env.PORT || 3000;
+config.jwtSecret = process.env.JWT_SECRET || "YOUR_secret_key";
+config.cnxString = "mongodb+srv://haythem:xUxU%25M6699@tradercluster.0nldd.mongodb.net/traderDb";
+//config.cnxString = "mongodb+srv://ali:ali123456789@cluster0.wizzc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+config.stripe_connect_test_client_id= 'YOUR_stripe_connect_test_client';
+config.stripe_test_secret_key= 'sk_test_51Js87GDWxsRCFbDc6ACj0yWkRA5MPDLc0XqaCw0eGNZS2ToYOF0R7BjbHwyxjTJlLC9fbJopZ0hVqrKbAVzTjAng00yCVzykLx';
+config.stripe_test_api_key= 'pk_test_51Js87GDWxsRCFbDcO4LXrvJjVl4mxGWQvLIrXSDnmqPNXNpfeedbhI1KaAd8qJrZA664SkxlvBrp9H5tgfo00OOk00g4N8VJTe';
+config.email='contact.tradr@gmail.com';
+config.pwe='2022@50878383A';
+config.url="http://localhost:3000";
+module.exports = config;
