@@ -17,7 +17,7 @@ app.use(compress())
 app.use(helmet())
 // enable CORS - Cross Origin Resource Sharing
 app.use(cors())
-// var whitelist = ['http://localhost:3000', 'https://test.tradr.wijaa-technologies.com']
+// var whitelist = ['http://localhost:3000', 'https://SiteUrl.com']
 // var corsOptions = {
 //   origin: function (origin, callback) {
 //     if (whitelist.indexOf(origin) !== -1) {
