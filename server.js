@@ -7,8 +7,8 @@ const Auction = require("./models/auction.model");
 const User = require("./models/user.model");
 const config = require("./config/config");
 
-// var privateKey  = fs.readFileSync('/etc/letsencrypt/live/test.tradr.wijaa-technologies.com/privkey.pem', 'utf8');
-// var certificate = fs.readFileSync('/etc/letsencrypt/live/test.tradr.wijaa-technologies.com/fullchain.pem', 'utf8');
+// var privateKey  = fs.readFileSync('/etc/letsencrypt/live/SiteUrl.com/privkey.pem', 'utf8');
+// var certificate = fs.readFileSync('/etc/letsencrypt/live/SiteUrl.com/fullchain.pem', 'utf8');
 // var credentials = {key: privateKey, cert: certificate};
 
 var httpServer = http.createServer(app);
